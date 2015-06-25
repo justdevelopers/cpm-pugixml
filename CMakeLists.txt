@@ -44,4 +44,4 @@ CPM_EnsureRepoIsCurrent(
   USE_CACHING TRUE
   )                  
 
-add_subdirectory(${CPM_MODULE_NAME}_DIR/scripts)
+add_subdirectory(${${CPM_MODULE_NAME}_DIR}/scripts)
