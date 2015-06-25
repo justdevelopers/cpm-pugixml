@@ -40,6 +40,5 @@ CPM_AddModule("GLM"
     GIT_REPOSITORY "https://github.com/zeux/pugixml"
     GIT_TAG "origin/master"
     USE_EXISTING_VER TRUE
-    EXPORT_MODULE TRUE    
-    SOURCE_DIR "scripts"
+    EXPORT_MODULE TRUE
 )                     
