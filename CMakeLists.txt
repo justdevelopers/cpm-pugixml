@@ -36,7 +36,7 @@ CPM_InitModule(${CPM_MODULE_NAME})
 #------------------------------------------------------------------------------
 # Pugixml 
 #------------------------------------------------------------------------------
-set(${CPM_MODULE_NAME}_DIR ${CMAKE_CURRENT_BINARY_DIR}/pugixml)
+set(${CPM_MODULE_NAME}_DIR ${CMAKE_CURRENT_SOURCE_DIR}/pugixml)
 CPM_EnsureRepoIsCurrent(
   TARGET_DIR ${${CPM_MODULE_NAME}_DIR}
   GIT_REPOSITORY "https://github.com/zeux/pugixml"
